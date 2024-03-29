@@ -1,0 +1,264 @@
+*/* o asterisco mexe em tudo dentro pagina*/
+{
+    margin: 0; /*tira as margens brancas das laterais*/
+    padding: 0; /**/
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.cabecalho
+{
+background-color: #000000;
+justify-content: end; /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
+display: flex; /*alinha os itens um do lado do outro*/
+align-items: center; /*alinha os itens ao centralizados*/
+padding: 50px; /*mexe na altura do header no caso cabeçalho*/
+flex-wrap: wrap; /*flex wrap serve para autorizar em uma tela menor quebrar os itens*/
+}
+.menu li a /*mexe na tag a*/
+{
+color: rgb(218, 220, 221);
+text-decoration: none; /*remove o subrlinhado da tag a*/
+padding: 10px; /*gerou os botões para ancora no menu*/
+
+}
+.menu li a:hover /*muda as cores do menu ao passar o mouse*/
+{
+    color: rgb(94, 6, 28);
+    border-color:white;
+    transition: 0.8s;
+}
+
+.menu li
+{
+    
+    margin-left: 10px; /*alinha o espaçamento */
+}
+.menu 
+{
+    list-style-type: none; /*remove as bolinhas sa ul li*/
+    display: flex; /*alinha na horizontal*/
+    
+}
+
+.secao1
+{
+background: linear-gradient(180deg, #c0cdcf 8.33%, #060606 100%); /*cria um degrade nas cores*/
+/*para criar o degrade, primeiro inserir o grau de onde esta nascendo, depois a cor depois a porcentagem dar para olhar os exemplos no site css gradiente https://cssgradiente.io*/ 
+padding: 30vh;
+
+}
+.secao1 > h1 /*mexe no h1 titulo*/
+{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.712)
+}
+
+.secao1 > p /*mexe no paragrafo*/
+ {
+    font-size: 40px;
+}
+
+.secao1 a /*mexe na tag ancora da primeira section*/
+{
+    text-decoration: none;
+    color: #797c83;
+}
+
+.secao1 a > button /*mexe no button*/
+{
+    padding: 20px;
+    border-radius: 50px;
+    width: 20vw;
+    color: #1a191a;
+    border-color: #1a191a;
+    margin: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.secao1 button:hover /*muda as cores do botão ao passar o mouse*/
+{
+    background-color: #1a191a;
+    border-color: white;
+    transition: 0.8s;
+    color: white;
+}
+#app 
+{
+    padding: 30vh;
+    background-color: #131313;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#app > div a > button
+{
+    padding: 20px;
+    border-radius: 50px;
+    width: 20vw;
+    color: rgb(19, 153, 108);
+    border-color: rgb(19, 153, 108);
+    margin: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#app > div a > button:hover /*mexe no hover do button dentro da app*/
+{
+    background-color: rgb(19, 153, 108);
+    border-color: white;
+    transition: 0.8s;
+    color: white;
+   
+}
+#app > div > p /*mexe no paragrafo dentro da div app*/
+{
+    font-size: 43px;
+    color: #c0cdcf;
+}
+#app > div img /*mexe na img dentro da div app*/
+{
+    width: 30vw;
+    height: 60vh;
+    margin-left: 50px;
+    margin-top: -70px; /*quando usa -negativo ao inves de descer sobe a margin-top*/
+}
+#container 
+{
+    padding: 30vh;
+    background-color: #131313;
+    flex-wrap: wrap;
+}
+#container h2 
+{
+    font-size: 40px;
+    margin-top: -20rem;
+    color: rgb(107, 107, 107);
+    text-align: center;
+}
+#container p 
+{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #c0cdcf;
+    text-align: justify;
+}
+#container button
+ {
+    padding: 20px;
+    border-radius: 50px;
+    width: 15vw;
+    color: rgb(50, 50, 226);
+    border-color: rgb(50, 50, 226);
+    margin: 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#container button:hover
+ {
+    padding: 20px;
+    border-radius: 50px;
+    width: 15vw;
+    background-color: rgb(50, 50, 226);
+    border-color: white;
+    color: bisque;
+    margin: 60px;
+    font-size: 15px;
+    transition: 0.8s;
+}
+
+
+#container img 
+{
+    margin-left: 10vw;
+    margin-top: 30px;
+    width: 50vw;
+}
+#line
+ {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#container-cofre 
+{
+    background: linear-gradient(180deg, #131313 8.33%, #13131377 100%), url(https://www.revendedor.com.br/wp-content/uploads/2023/05/Meios-de-pagamento-mais-utilizados-pelos-brasileiros.jpg); 
+    background-position: center; /*alinha imagem ao centro*/
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*deixa imagem fixada na section*/
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#container-cofre ol
+{
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+#container-cofre li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    color: white;
+}
+
+#container-cofre img /**/
+{
+    width: 25vw;
+    margin-top: 10rem;
+    height: auto;
+    flex-wrap: wrap;
+}
+#container-cofre h2 
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#container-cofre p
+ {
+    color: white;
+    /* font-size: 17px; */
+    text-align: center;
+    margin-top: 2rem;
+    /* font-weight: 800; deixa a fonte mais larga como se fosse um BOLD mais */
+} 
+
+footer /*rodape*/
+{
+    padding: 13vh;
+    background-color: rgb(29, 28, 28);
+    text-align: center;
+}
+footer img /*mexe no tamanho da imagem rodape*/
+{
+    width: 13rem;
+    height: 4rem;
+    margin-top: -5rem;
+}
+.item-footer /*class para ul rodape*/
+{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; 
+}
+.item-footer a /*mexe na anconra do rodape*/
+{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+.item-footer a:hover /*mexe no rover da ancora rodapé*/
+{
+    color: rgba(192, 15, 228, 0.911);
+    text-decoration: none;
+    transition: 0.8s;
+}
