@@ -182,7 +182,7 @@ padding: 30vh;
 
 #container-cofre 
 {
-    background: linear-gradient(180deg, #131313 8.33%, #13131377 100%), url(https://www.revendedor.com.br/wp-content/uploads/2023/05/Meios-de-pagamento-mais-utilizados-pelos-brasileiros.jpg); 
+    background: linear-gradient(180deg, #131313 8.33%, #13131377 100%), url(imagens/home-new-bg-free-img.jpg); 
     background-position: center; /*alinha imagem ao centro*/
     background-repeat: no-repeat;
     background-attachment: fixed; /*deixa imagem fixada na section*/
@@ -240,8 +240,10 @@ footer /*rodape*/
 }
 footer img /*mexe no tamanho da imagem rodape*/
 {
-    width: 13rem;
-    height: 4rem;
+    /* width: 13rem; */
+    /* height: 4rem; */
+    width: 120px;
+    height: 120px;
     margin-top: -5rem;
 }
 .item-footer /*class para ul rodape*/
