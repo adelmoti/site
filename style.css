@@ -8,12 +8,20 @@
 .cabecalho
 {
 background-color: #000000;
-justify-content: end; /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
+/*justify-content: end;*/    /*justifica os itens e separa os itens no caso joga o menu de um lado e outro*/
 display: flex; /*alinha os itens um do lado do outro*/
 align-items: center; /*alinha os itens ao centralizados*/
 padding: 50px; /*mexe na altura do header no caso cabeçalho*/
 flex-wrap: wrap; /*flex wrap serve para autorizar em uma tela menor quebrar os itens*/
 }
+.cabecalho > img
+{
+    display: flex;
+    justify-content: initial;
+    
+}
+
+
 .menu li a /*mexe na tag a*/
 {
 color: rgb(218, 220, 221);
@@ -31,10 +39,12 @@ padding: 10px; /*gerou os botões para ancora no menu*/
 .menu li
 {
     
+    
     margin-left: 10px; /*alinha o espaçamento */
 }
 .menu 
 {
+   
     list-style-type: none; /*remove as bolinhas sa ul li*/
     display: flex; /*alinha na horizontal*/
     
@@ -147,8 +157,8 @@ padding: 30vh;
     padding: 20px;
     border-radius: 50px;
     width: 15vw;
-    color: rgb(50, 50, 226);
-    border-color: rgb(50, 50, 226);
+    color: rgba(0, 0, 0, 0.753);
+    border-color: rgba(255, 255, 255, 0.5);
     margin: 60px;
     font-size: 15px;
     cursor: pointer;
@@ -159,7 +169,7 @@ padding: 30vh;
     padding: 20px;
     border-radius: 50px;
     width: 15vw;
-    background-color: rgb(50, 50, 226);
+    background-color: rgba(255, 255, 255, 0.5);
     border-color: white;
     color: bisque;
     margin: 60px;
